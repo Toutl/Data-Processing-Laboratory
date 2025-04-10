@@ -1,0 +1,160 @@
+A continuación los pasos a realizar. Lee con atención  y responde en tu notebook lo que se pide. 
+
+ 
+
+ 
+
+
+    Tomar el dataset db_pap3.csv, lo podrás encontrar en el muro de la clase en Canvas. 
+
+
+    Hacer un análisis descriptivo y agrupado de los datos. De este punto se espera que el alumno identifique las carencias de la base (información faltante y/o mal presentada) así como el potencial de las variables predictoras hacia la variable de respuesta (client_stayed).
+
+
+
+        Este punto trata de analizar el estado en el cual se recibe el conjunto de datos y explicarlo de manera somera pero con gráficos/tablas que soporten conclusiones preliminares.
+
+
+            Nota: Solamente nombrar columnas o decir que hay X números NO es un análisis descriptivo EDA.
+
+
+
+
+        Hacer análisis cruzados: Análisis entre varias variables y no solo de manera individual. Se espera que hagas estos análisis y expliques qué se hace y qué observas en cada uno. 
+
+
+
+
+    Preprocesar los datos. 
+
+
+
+         
+
+        Se espera que se limpien y/o estandaricen según sea necesario en este punto del proceso.
+
+
+        Rellenar información faltante.
+
+            Explicar el porqué del método elegido.
+
+
+            Evaluar los impactos en el conjunto de datos del método elegido. Responder:
+
+
+
+                ¿La variable después de rellenar cambió su distribución de alguna forma?
+
+
+
+                ¿Cambiaron estadísticos como el promedio y la desviación estándar de la variable?
+
+
+
+                ¿Cambió la correlación de la variable con la variable objetivo?
+
+
+
+
+
+
+        Generar un proceso de feature engineering. 
+
+            Crear nuevas variables a partir de las existentes Se deben de crear al menos 5 variables y agregarlas al DataFrame para poder hacer los análisis subsecuentes. Para cada variable creada responder: 
+
+                ¿Cuál es tu hipótesis? ¿Por qué esa variable puede servir?
+
+                Después de observar el potencial de la variable explica su comportamiento. ¿Qué observas de tu variable al ser comparada con la variable de respuesta?
+
+
+
+            Se debe de cuidar que no haya leakage en ninguna de las variables producidas.
+
+
+
+        Generar un proceso de selección de variables.
+
+            Se debe de escoger entre al menos una de las siguientes opciones:
+
+                Varianza.
+
+                Correlaciones.
+
+                Coeficientes de una regresión logística.
+
+
+
+            Responder:
+
+                ¿Cómo se implementó el método utilizado? 
+
+                ¿Por qué se escogió este método?
+
+                ¿Qué variables se van a seleccionar con el método?
+
+                ¿Cómo puedo demostrar que las variables elegidas son mejores que las no elegidas?
+
+                ¿Algunas de las variables generadas con el punto b quedaron elegidas? ¿Por qué?
+
+
+
+
+
+
+ 
+
+A continuación se adjunta una descripción breve de las variables y de su contenido.
+
+ 
+
+
+    Clientnum: Id único para el cliente.
+
+
+    Client_stayed: Variable de respuesta. Es 1 si el cliente sigue con el banco o 0 si el cliente decidió dejar de ser cliente.
+
+
+    Customer_age: Edad del cliente medida en años. 
+
+
+    Gender: Género del cliente. M para hombres y F para mujeres.
+
+
+    Dependent_count: Número de dependientes económicos del cliente.
+
+
+    Education_level: Escolaridad del cliente.
+
+
+    Marital_status: Estado civil del cliente.
+
+
+    Income_category: El banco no cuenta con los salarios exactos de los clientes, por lo que esta variable representa un aproximado medio del salario del mismo medido en dólares estadounidenses.
+
+
+    Card_category: Tipo de instrumento de crédito que tiene el cliente.
+
+
+    Months_on_book: Periodo en el que el cliente ha estado activo (desde la activación de su instrumento de crédito). 
+
+
+    Total_relationship_count: Número de productos del banco que tiene el cliente. El cliente no está limitado a solo tener su instrumento de crédito, puede tener relación con otras áreas del banco.
+
+
+    Months_inactive_12_mon: Número de meses que el cliente ha dejado de utilizar su instrumento de crédito en los últimos 12 meses.
+
+
+    Contacts_count_12_mon: Número de contactos telefónicos que ha hecho el cliente al banco en los últimos 12 meses.
+
+
+    Credit_limit: Límite del instrumento crediticio medido en dólares estadounidenses.
+
+
+    Total_revolving_bal: Balance total del instrumento crediticio (cantidad a pagar por el cliente).
+
+
+    Total_trans_amt: Dinero transaccionado a través del instrumento crediticio en los últimos 12 meses.
+
+
+    Total_trans_ct: Número de transacciones realizadas a través del instrumento crediticio en los últimos 12 meses.
+
