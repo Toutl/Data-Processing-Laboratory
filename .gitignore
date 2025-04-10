@@ -1,0 +1,7 @@
+# Python thingies
+__pycache__/
+db.sqlite3
+.ipynb_checkpoints
+
+# Local
+.config/
