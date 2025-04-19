@@ -39,7 +39,8 @@ axes.facecolor      : 282A3A  # surface, background
 axes.edgecolor      : EAF2F1
 axes.axisbelow      : True
 
-axes.prop_cycle: cycler('color', ['FF657A', 'FF9B5E', 'FFD76D', 'BAD761', '9CD1BB', 'C39AC9'])
+#axes.prop_cycle: cycler('color', ['FF657A', 'FF9B5E', 'FFD76D', 'BAD761', '9CD1BB', 'C39AC9'])
+axes.prop_cycle: cycler('color', ['FF657A', 'BAD761', '9CD1BB', 'C39AC9'])
 
 axes.grid           : False
 grid.color          : 696D77    # grid color
