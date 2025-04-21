@@ -1,6 +1,6 @@
 # Instrucciones
 
-A continuación los pasos a realizar. Lee con atención  y responde en tu notebook lo que se pide: 
+A continuación los pasos a realizar. Lee con atención  y responde en tu notebook lo que se pide:
 
 1. Tomar el dataset dado.
 2. Hacer un análisis descriptivo y agrupado de los datos. De este punto se espera que el alumno identifique las carencias de la base (información faltante y/o mal presentada) así como el potencial de las variables predictoras hacia la variable de respuesta (`client_stayed`).
@@ -16,7 +16,7 @@ A continuación los pasos a realizar. Lee con atención  y responde en tu notebo
           - ¿Cambiaron estadísticos como el promedio y la desviación estándar de la variable?
           - ¿Cambió la correlación de la variable con la variable objetivo?
     - Generar un proceso de feature engineering.
-        - Crear nuevas variables a partir de las existentes Se deben de crear al menos 5 variables y agregarlas al DataFrame para poder hacer los análisis subsecuentes. Para cada variable creada responder: 
+        - Crear nuevas variables a partir de las existentes Se deben de crear al menos 5 variables y agregarlas al DataFrame para poder hacer los análisis subsecuentes. Para cada variable creada responder:
             - ¿Cuál es tu hipótesis? ¿Por qué esa variable puede servir?
             - Después de observar el potencial de la variable explica su comportamiento. ¿Qué observas de tu variable al ser comparada con la variable de respuesta?
         - **Se debe de cuidar que no haya leakage en ninguna de las variables producidas**.
@@ -26,12 +26,11 @@ A continuación los pasos a realizar. Lee con atención  y responde en tu notebo
             - Correlaciones.
             - Coeficientes de una regresión logística.
         - Responder:
-            - ¿Cómo se implementó el método utilizado? 
+            - ¿Cómo se implementó el método utilizado?
             - ¿Por qué se escogió este método?
             - ¿Qué variables se van a seleccionar con el método?
             - ¿**Cómo puedo demostrar** que las variables elegidas son mejores que las no elegidas?
             - ¿Algunas de las variables generadas con el punto b quedaron elegidas? ¿Por qué?
-
 
 ## Variables
 
